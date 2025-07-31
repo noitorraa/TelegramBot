@@ -36,7 +36,7 @@ def echo(update: Update, context) -> None:
 # Функция main
 def main() -> None:
     # Запускаем бота, апдэйтер работает только в старой версии какой-то
-    updater = Updater(token='6778680428:AAHVe_MHKsNktGXgTReoGH4VL3KYqGDuB2Y', use_context=True)
+    updater = Updater(token='SECRETTOKEN', use_context=True)
     dispatcher = updater.dispatcher
     # Создание обработчиков команд и текстовых сообщений
     start_handler = CommandHandler('start', start)
